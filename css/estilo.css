@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.tituloPrincipal {
+  color: goldenrod;
+  background-color: black;
+  text-align-last: center;
+}
+nav {
+  height: 75px;
+}
+
+.listaPadre {
+  background-color: black;
+}
+.listaPadre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-bottom: 2px solid goldenrod;
+  margin-right: 30px;
+}
+
+.listaPadre li {
+  border-radius: 3px;
+  margin: 5px 5px;
+  padding: 10px 10px;
+}
+.imagenNadapuesto {
+  height: 110px;
+  width: 110px;
+}
+
+.listaPadre li a {
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  color: goldenrod;
+  text-transform: uppercase;
+}
+
+.instagramParrafo {
+  display: inline-block;
+  color: antiquewhite;
+}
+.imagenInstagram {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.instagramParrafo a {
+  text-decoration: none;
+  color: white;
+  background-color: goldenrod;
+}
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.footerFinal {
+  background-color: rgba(0, 0, 0, 0.365);
+  margin-top: auto;
+}
