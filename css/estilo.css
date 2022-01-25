@@ -28,7 +28,13 @@ nav {
   border-radius: 3px;
   margin: 5px 5px;
   padding: 10px 10px;
+  transition-property: background;
+  transition-duration: 1s;
 }
+.listaPadre li:hover {
+  background: rgb(91, 84, 97);
+}
+
 .imagenNadapuesto {
   height: 110px;
   width: 110px;
