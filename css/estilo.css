@@ -85,3 +85,8 @@ body {
   margin-bottom: 40px;
   object-fit: cover;
 }
+.texto-capa {
+  color: white;
+  margin: auto;
+  overflow: hidden;
+}
